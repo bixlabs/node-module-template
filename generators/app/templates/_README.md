@@ -27,7 +27,7 @@ Have in mind that errors in tests or linting will prevent the build from finish 
 
 ## License
 
-MIT © [Bixlabs](www.bixlabs.com) - [<%= authorName %>](https://github.com/<%= githubUsername %>)
+MIT © [Bixlabs](https://www.bixlabs.com/) - [<%= authorName %>](https://github.com/<%= githubUsername %>)
 
 
 [npm-image]: https://badge.fury.io/js/<%= name %>.svg
