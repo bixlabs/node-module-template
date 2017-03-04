@@ -18,7 +18,7 @@ yo bix-node-module
 
 ## License
 
-MIT © 
+MIT © [Bixlabs](www.bixlabs.com) - [Joseph Arrieta](https://github.com/jac1013)
 
 
 [npm-image]: https://badge.fury.io/js/generator-bix-module-template.svg

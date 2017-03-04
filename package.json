@@ -48,7 +48,6 @@
       "mocha": true
     }
   },
-  "repository": "bixlabs/generator-bix-module-template",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
