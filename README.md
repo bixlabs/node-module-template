@@ -22,7 +22,7 @@ MIT © [Bixlabs](www.bixlabs.com) - [Joseph Arrieta](https://github.com/jac1013)
 
 
 [npm-image]: https://badge.fury.io/js/generator-bix-module-template.svg
-[npm-url]: https://npmjs.org/package/generator-bix-module-template
+[npm-url]: https://npmjs.org/package/generator-bix-node-module
 [travis-image]: https://travis-ci.org/bixlabs/generator-bix-module-template.svg?branch=master
 [travis-url]: https://travis-ci.org/bixlabs/generator-bix-module-template
 [daviddm-image]: https://david-dm.org/bixlabs/generator-bix-module-template.svg?theme=shields.io
