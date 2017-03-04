@@ -13,12 +13,12 @@ module.exports = generators.extend({
       name: 'name',
       message: 'Module\'s Name',
       //Defaults to the project's folder name if the input is skipped
-      default: this.appname
+      default: 'bixlabs-hello-world-node-module'
     },{
       type: 'input',
       name: 'description',
       message: 'Module\'s Description',
-      default: 'Module to print a name in the console.'
+      default: 'Simple Hello World module.'
     },{
       type: 'input',
       name: 'authorName',
@@ -60,6 +60,18 @@ module.exports = generators.extend({
         }
       );
 
+      this.fs.copyTpl(
+        this.templatePath('_README.md'),
+        this.destinationPath('README.md'), {
+          name: this.props.name,
+          description: this.props.description,
+          authorName: this.props.authorName,
+          authorEmail: this.props.authorEmail,
+          githubUsername: this.props.githubUsername,
+          projectHomepage: this.props.projectHomepage,
+        }
+      );
+
       this.fs.copy(
         this.templatePath('_.gitignore'),
         this.destinationPath('.gitignore')
@@ -68,6 +80,11 @@ module.exports = generators.extend({
       this.fs.copy(
         this.templatePath('_.editorconfig'),
         this.destinationPath('.editorconfig')
+      );
+
+      this.fs.copy(
+        this.templatePath('.github/_PULL_REQUEST_TEMPLATE.md'),
+        this.destinationPath('.github/PULL_REQUEST_TEMPLATE.md')
       );
     },
 
