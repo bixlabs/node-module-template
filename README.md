@@ -21,9 +21,9 @@ yo bix-node-module
 MIT © [Bixlabs](www.bixlabs.com) - [Joseph Arrieta](https://github.com/jac1013)
 
 
-[npm-image]: https://badge.fury.io/js/generator-bix-module-template.svg
+[npm-image]: https://badge.fury.io/js/generator-bix-node-module.svg
 [npm-url]: https://npmjs.org/package/generator-bix-node-module
-[travis-image]: https://travis-ci.org/bixlabs/generator-bix-module-template.svg?branch=master
-[travis-url]: https://travis-ci.org/bixlabs/generator-bix-module-template
-[daviddm-image]: https://david-dm.org/bixlabs/generator-bix-module-template.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/bixlabs/generator-bix-module-template
+[travis-image]: https://travis-ci.org/bixlabs/generator-bix-node-module.svg?branch=master
+[travis-url]: https://travis-ci.org/bixlabs/generator-bix-node-module
+[daviddm-image]: https://david-dm.org/bixlabs/generator-bix-node-module.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/bixlabs/generator-bix-node-module
