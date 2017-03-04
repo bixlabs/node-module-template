@@ -10,7 +10,7 @@ npm run lint
 ## How to run mocha tests
 
 ```bash
-nyc npm run test
+npm run test
 ```
 
 ## How to run babel compile
