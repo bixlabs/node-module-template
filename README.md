@@ -1,0 +1,29 @@
+# generator-bix-node-module [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+> Template to start developing a node module with ES7
+
+## Installation
+
+First, install [Yeoman](http://yeoman.io) and generator-bix-module-template using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+
+```bash
+npm install -g yo
+npm install -g generator-bix-node-module
+```
+
+Then generate your new project:
+
+```bash
+yo bix-node-module
+```
+
+## License
+
+MIT © 
+
+
+[npm-image]: https://badge.fury.io/js/generator-bix-module-template.svg
+[npm-url]: https://npmjs.org/package/generator-bix-module-template
+[travis-image]: https://travis-ci.org/bixlabs/generator-bix-module-template.svg?branch=master
+[travis-url]: https://travis-ci.org/bixlabs/generator-bix-module-template
+[daviddm-image]: https://david-dm.org/bixlabs/generator-bix-module-template.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/bixlabs/generator-bix-module-template
