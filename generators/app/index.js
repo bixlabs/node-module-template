@@ -83,6 +83,11 @@ module.exports = generators.extend({
       );
 
       this.fs.copy(
+        this.templatePath('_.npmignore'),
+        this.destinationPath('.npmignore')
+      );
+
+      this.fs.copy(
         this.templatePath('.github/_PULL_REQUEST_TEMPLATE.md'),
         this.destinationPath('.github/PULL_REQUEST_TEMPLATE.md')
       );

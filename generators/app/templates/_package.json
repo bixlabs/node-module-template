@@ -10,7 +10,8 @@
     "build": "npm run lint && npm run test && npm run compile",
     "lint": "eslint src",
     "test": "nyc mocha --compilers js:babel-register --recursive",
-    "compile": "babel src --out-dir dist"
+    "compile": "babel src --out-dir dist",
+    "prepublish": "npm run build"
   },
   "babel": {
     "presets": [
