@@ -101,10 +101,6 @@ module.exports = generators.extend({
       );
 
       this.fs.copy(
-        this.templatePath('dist/hello-world/_index.js'),
-        this.destinationPath('dist/hello-world/index.js'));
-
-      this.fs.copy(
         this.templatePath('test/hello-world/_index.test.js'),
         this.destinationPath('test/hello-world/index.test.js'));
     },
