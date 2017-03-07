@@ -1,1 +1,7 @@
 src
+test
+_.editorconfig
+coverage
+.nyc_output
+.github
+.gitignore
