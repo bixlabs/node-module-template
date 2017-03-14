@@ -7,7 +7,7 @@
     "node": ">=5.11.0"
   },
   "scripts": {
-    "build": "npm run lint && npm run test && npm run compile",
+    "build": "npm run test && npm run compile",
     "lint": "eslint src",
     "pretest": "npm run lint",
     "test": "nyc mocha -r babel-polyfill --compilers js:babel-register --recursive",
